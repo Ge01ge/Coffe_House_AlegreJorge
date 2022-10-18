@@ -1,0 +1,223 @@
+body {
+  background-color: chocolate;
+}
+
+/* navbar */
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 10vw;
+  height: 12vh;
+  background-color: black;
+}
+
+.navbar-logo {
+  font-style: italic;
+  justify-self: start;
+  /* margin-left: 8rem; */
+  color: lawngreen;
+  /* margin-top: 4vh; */
+  margin-bottom: 20px;
+}
+
+.ver-carrito {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: lawngreen;
+  border-radius: 50%;
+  border: 2px solid lawngreen;
+}
+
+/* banner */
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.banner-container {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: gainsboro;
+  text-shadow: 1px 1px 3px rgba(119, 95, 95, 0.447);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.206);
+}
+
+.shop-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-right: 80px;
+  margin-right: 80px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.265);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card > img {
+  height: 250px;
+}
+
+.price {
+  color: transparent;
+  font-size: 25px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: lawngreen;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  background-color: lawngreen;
+  color: #000;
+  font-weight: bold;
+}
+
+.modalContainer {
+  width: 55vw;
+  height: auto;
+  margin: 20px 30vw;
+  max-height: 80vh;
+  color: #fff;
+  background-color: rgba(227, 184, 152, 0.867);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 20px;
+}
+
+.modalContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(24, 22, 22, 0.582);
+  color: white;
+  width: 100%;
+}
+
+.modal-header-title {
+  justify-self: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 45vw;
+  margin-top: 10px;
+}
+
+.modalContainer > .modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  background-color: rgba(24, 22, 22, 0.194);
+}
+
+.modalContainer > div > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgba(24, 22, 22, 0.582);
+  width: 100%;
+}
+
+.eliminar-product {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.renderizar {
+  font-size: 20px;
+  text-decoration: none;
+  font-style: italic;
+  text-align: center;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.contador-carrito {
+  background-color: chartreuse;
+  color: black;
+  border-radius: 50%;
+  border: 3px solid #000;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 15px;
+  font-weight: bolder;
+  top: 35px;
+  right: 9.5vw;
+  position: absolute;
+  display: none;
+}
+.swal-title {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}

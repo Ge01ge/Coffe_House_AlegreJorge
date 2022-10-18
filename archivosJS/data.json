@@ -1,0 +1,66 @@
+[
+  {
+    "nombre": "grano Liberico ",
+    "precio": 300,
+    "id": 1,
+    "calidCantidad": " (100gr) calidad Premium",
+    "img": "https://incapto.com/wp-content/uploads/2021/04/UTB884cHm22JXKJkSanrq6y3lVXaI.jpg",
+    "cantidad": 1
+  },
+  {
+    "nombre": "grano Robusto",
+    "precio": 400,
+    "id": 2,
+    "calidCantidad": " (100gr) calidad Premium",
+    "img": "https://previews.123rf.com/images/cjung/cjung1301/cjung130100036/17169745-grains-de-caf%C3%A9-robusta-.jpg",
+    "cantidad": 1
+  },
+  {
+    "nombre": "grano Arabico",
+    "precio": 250,
+    "id": 3,
+    "calidCantidad": " (100gr) calidad Premium",
+    "img": "https://thumbs.dreamstime.com/b/granos-de-caf%C3%A9-arabica-28189044.jpg",
+    "cantidad": 1
+  },
+  {
+    "nombre": "NesCafe classic",
+    "precio": 700,
+    "id": 4,
+    "calidCantidad": "500gr",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKFFBFpXbwmSnBtR9BQSTY9RZ-JMe4PsnSklExL9KATUtNIpdqUbCCFQWxsj4sIjRRbo&usqp=CAU",
+    "cantidad": 1
+  },
+  {
+    "nombre": "La Virginia",
+    "precio": 800,
+    "id": 5,
+    "calidCantidad": "500gr",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_633921-MLA46584462543_072021-O.jpg",
+    "cantidad": 1
+  },
+  {
+    "nombre": "Batidor de Cafe",
+    "precio": 1000,
+    "id": 6,
+    "calidCantidad": "Unidad",
+    "img": "https://cf.shopee.com.mx/file/5858232d7dae9ba612bbe4326476f7c1",
+    "cantidad": 1
+  },
+  {
+    "nombre": "set tazas de cafe Blanca ",
+    "precio": 1800,
+    "id": 7,
+    "calidCantidad": "6 Unidades",
+    "img": "https://m.media-amazon.com/images/I/610z+-iQ9gL._AC_SX522_.jpg",
+    "cantidad": 1
+  },
+  {
+    "nombre": "set tazas Café Irlandés/ Capuchino (230 Ml)",
+    "precio": 3800,
+    "id": 8,
+    "calidCantidad": "6 Unidades",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_725925-MLC50128052307_052022-O.webp",
+    "cantidad": 1
+  }
+]
