@@ -69,4 +69,6 @@ function elimProducto() {
 const carritoCounter = () => {
   contadorCarrito.style.display = "block";
   contadorCarrito.innerText = carrito.length;
+
+  localStorage.setItem("guardarCarrito", JSON.stringify(carrito));
 };

@@ -14,7 +14,7 @@ const button = document.querySelector("#submitButton");
 //crear el evento
 formulario.addEventListener("submit", validarFormulario);
 
-//mi funcion
+//funcion de validacion
 function validarFormulario(e) {
   e.preventDefault();
   let nombre = document.querySelector("#nombre").value;
@@ -33,8 +33,10 @@ function validarFormulario(e) {
     confirmButtonText: "Ok",
     showConfirmButton: true,
   });
-}
-infoForm.push(new Datos("", "", ""));
 
-sessionStorage.setItem("guardarForm", JSON.stringify(infoForm));
+  infoForm.push(new Datos(nombre, tel, correo));
+
+  sessionStorage.setItem("guardarForm", JSON.stringify(infoForm));
+}
+
 const guardarForm = JSON.parse(sessionStorage.getItem("guardarForm"));
